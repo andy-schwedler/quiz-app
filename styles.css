@@ -3,7 +3,9 @@
   /* margin: 0; */
   border: 1px solid;
 }
-footer {
+ul {
   display: flex;
   list-style-type: none;
+  justify-content: space-between;
+  padding: 1px;
 }
