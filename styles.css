@@ -4,6 +4,12 @@
   margin: 0;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 header {
   display: flex;
   padding: 0;
@@ -16,19 +22,10 @@ header {
     0 0 10px rgba(255, 255, 255, 0.5);
 }
 
-.card-color {
-  background-color: white;
-}
-
 div {
-  background-color: yellow;
-}
-
-.first-card {
   background-color: lightgray;
-  display: flex;
-  flex-wrap: wrap;
-  position: relative;
+  padding: 100px;
+  border-radius: 10%;
 }
 
 p {
@@ -40,10 +37,9 @@ p {
 }
 
 button {
-  position: absolute;
+  position: relative;
   text-align: center;
-  right: 45%;
-  bottom: 30%;
+  box-shadow: inset;
 }
 
 ul {
@@ -51,6 +47,7 @@ ul {
   list-style-type: none;
   flex-direction: row;
   margin: 16px;
+  width: 190px;
 }
 
 li {
@@ -58,11 +55,9 @@ li {
   margin: 5px;
 }
 
-main {
-  background-color: #white;
-}
-
 footer {
-  margin: auto;
   background-color: whitesmoke;
+  position: fixed;
+  bottom: 0%;
+  width: auto;
 }
