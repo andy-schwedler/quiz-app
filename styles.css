@@ -4,7 +4,65 @@
   margin: 0;
 }
 
-h1 {
+header {
+  display: flex;
+  padding: 0;
+  justify-content: center;
   text-align: center;
-  background-color: lightblue;
+  padding-bottom: 3rem;
+  color: rgba(255, 255, 255, 0.3);
+  background: #1a1a1a;
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.5),
+    0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.card-color {
+  background-color: white;
+}
+
+div {
+  background-color: yellow;
+}
+
+.first-card {
+  background-color: lightgray;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+p {
+  padding: 5%;
+  box-sizing: content-box;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+button {
+  position: absolute;
+  text-align: center;
+  right: 45%;
+  bottom: 30%;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  margin: 16px;
+}
+
+li {
+  display: inline-block;
+  margin: 5px;
+}
+
+main {
+  background-color: #white;
+}
+
+footer {
+  margin: auto;
+  background-color: whitesmoke;
 }
