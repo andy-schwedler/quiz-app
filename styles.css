@@ -1,10 +1,11 @@
 * {
   /* margin: 0; */
+  box-sizing: border-box;
   border: 1px solid;
   text-align: center;
 }
 h1 {
-  display: ;
+  display: block;
 }
 
 button {
@@ -18,4 +19,7 @@ ul {
   justify-content: space-between;
   padding: 0px;
   margin: 5px;
+}
+li {
+  list-style-type: none;
 }
