@@ -1,11 +1,22 @@
 * {
-  border-style: 0;
+  border: none;
   /* margin: 0; */
   border: 1px solid;
+  text-align: center;
 }
+h1 {
+  display: ;
+}
+
+button {
+  border-radius: 30%;
+  border: none;
+}
+
 ul {
   display: flex;
   list-style-type: none;
   justify-content: space-between;
-  padding: 1px;
+  padding: 0px;
+  margin: 5px;
 }
