@@ -1,5 +1,9 @@
 * {
   border-style: 0;
-  margin: 0;
+  /* margin: 0; */
   border: 1px solid;
+}
+footer {
+  display: flex;
+  list-style-type: none;
 }
