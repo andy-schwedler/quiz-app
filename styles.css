@@ -1,13 +1,16 @@
 * {
   box-sizing: border-box;
   border: 1px solid hotpink;
-  /* margin: 5px; */
+  /* margin: 1px; */
+  height: auto;
 }
 
 body {
   display: flex;
+  height: auto;
   justify-content: center;
   flex-direction: column;
+  margin: 0;
 }
 
 header {
@@ -15,7 +18,8 @@ header {
   justify-content: center;
   margin: 0;
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
+  border: 1px solid black;
   color: rgba(255, 255, 255, 0.3);
   background: #1a1a1a;
   text-shadow: 0 0 15px rgba(255, 255, 255, 0.5),
@@ -32,14 +36,17 @@ div {
   background-color: lightgray;
   padding: 1.5% 1%;
   border-radius: 10%;
+  height: 45%;
   width: 50%;
-  margin-left: 25%;
+  margin-left: auto;
   margin-top: 2%;
   box-shadow: 2px 2px 5px #666;
+  justify-content: center;
 }
 
 p {
-  padding: 5%;
+  padding: 1%;
+  margin: 0;
   box-sizing: content-box;
   width: 100%;
   justify-content: center;
@@ -49,8 +56,10 @@ p {
 button {
   display: flex;
   position: relative;
+  left: 40%;
+  margin: 1%;
   text-align: center;
-  box-shadow: inset;
+  box-shadow: 2px 2px 5px lightgray;
 }
 
 ul,
@@ -61,6 +70,7 @@ li {
   margin: 16px;
   width: 190px;
   gap: 10px;
+  border: 1px solid black;
 }
 
 li {
@@ -71,9 +81,8 @@ li {
 footer {
   background-color: whitesmoke;
   position: fixed;
-  margin: 0;
-  bottom: 0%;
+  bottom: 0;
   width: 100%;
   display: block;
-  justify-content: center;
+  justify-content: flex-start;
 }
