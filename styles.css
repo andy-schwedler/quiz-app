@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   border: 1px solid hotpink;
-  margin: 0;
+  /* margin: 5px; */
 }
 
 body {
@@ -12,20 +12,30 @@ body {
 
 header {
   display: flex;
-  padding: 0;
   justify-content: center;
+  margin: 0;
   text-align: center;
-  padding-bottom: 3rem;
+  padding-bottom: 50px;
   color: rgba(255, 255, 255, 0.3);
   background: #1a1a1a;
   text-shadow: 0 0 15px rgba(255, 255, 255, 0.5),
     0 0 10px rgba(255, 255, 255, 0.5);
 }
 
+h1 {
+  position: relative;
+  top: 60%;
+  font-size: 50px;
+}
+
 div {
   background-color: lightgray;
-  padding: 100px;
+  padding: 1.5% 1%;
   border-radius: 10%;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 2%;
+  box-shadow: 2px 2px 5px #666;
 }
 
 p {
@@ -37,27 +47,33 @@ p {
 }
 
 button {
+  display: flex;
   position: relative;
   text-align: center;
   box-shadow: inset;
 }
 
-ul {
+ul,
+li {
   display: flex;
   list-style-type: none;
   flex-direction: row;
   margin: 16px;
   width: 190px;
+  gap: 10px;
 }
 
 li {
-  display: inline-block;
+  display: flex;
   margin: 5px;
 }
 
 footer {
   background-color: whitesmoke;
   position: fixed;
+  margin: 0;
   bottom: 0%;
-  width: auto;
+  width: 100%;
+  display: block;
+  justify-content: center;
 }
