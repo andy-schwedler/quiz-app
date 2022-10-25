@@ -1,16 +1,13 @@
 * {
   box-sizing: border-box;
-  border: 1px solid hotpink;
-  /* margin: 1px; */
+  /* border: 1px solid hotpink; */
+  margin: 1px;
   height: auto;
 }
 
 body {
   display: flex;
-  height: auto;
-  justify-content: center;
   flex-direction: column;
-  margin: 0;
 }
 
 header {
@@ -18,7 +15,6 @@ header {
   justify-content: center;
   margin: 0;
   text-align: center;
-  padding-bottom: 10px;
   border: 1px solid black;
   color: rgba(255, 255, 255, 0.3);
   background: #1a1a1a;
@@ -30,47 +26,54 @@ h1 {
   position: relative;
   top: 60%;
   font-size: 50px;
+  margin: 0;
 }
 
 div {
   background-color: lightgray;
-  padding: 1.5% 1%;
+  border: 1px solid black;
   border-radius: 10%;
   height: 45%;
-  width: 50%;
-  margin-left: auto;
-  margin-top: 2%;
+  width: 350px;
+  margin: 20px 5px 20px 5px;
   box-shadow: 2px 2px 5px #666;
   justify-content: center;
 }
 
 p {
-  padding: 1%;
   margin: 0;
+  padding: 0;
   box-sizing: content-box;
   width: 100%;
   justify-content: center;
   text-align: center;
+  font-size: 20px;
 }
 
-button {
+.answerbutton {
   display: flex;
   position: relative;
   left: 40%;
-  margin: 1%;
+  margin: 10%;
   text-align: center;
-  box-shadow: 2px 2px 5px lightgray;
+  box-shadow: 2px 2px 5px black;
+  align-items: center;
 }
 
-ul,
-li {
+.bookmark {
+  width: 30px;
+  position: relative;
+  left: 300px;
+}
+
+ul {
   display: flex;
+  align-items: center;
+  padding-top: 1%;
   list-style-type: none;
   flex-direction: row;
-  margin: 16px;
-  width: 190px;
-  gap: 10px;
-  border: 1px solid black;
+  gap: 1%;
+  color: darkgray;
 }
 
 li {
