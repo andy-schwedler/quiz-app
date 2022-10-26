@@ -4,37 +4,39 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
     <title>Bookmarks</title>
   </head>
+  <header>
+    <h1>Quiz</h1>
+  </header>
   <body>
-    <div>
-      <button type="button">&#10026;</button>
-      <p>What property flips the axes in Flexbox</p>
-      <button type="button">Show answer</button>
-      <ul>
+    <section class="quiz-card">
+      <button class="quiz-card_bookmark">&#10026;</button>
+      <p class="quiz-card_question">What property flips the axes in Flexbox</p>
+      <button type="button" class="quiz-card_button">Hide answer</button>
+      <p class="quiz-card_answer">flex-direction</p>
+      <section class="quiz-card_tags">
         <li>#css</li>
         <li>#flexbox</li>
         <li>#html</li>
-      </ul>
-    </div>
-    <div>
-      <button type="button">&#10026;</button>
-      <p>Lorem Impsum dolor sit?</p>
-      <button>Show answer</button>
-      <p>flex-direction</p>
-      <ul>
+      </section>
+    </section>
+    <section class="quiz-card">
+      <button class="quiz-card_bookmark">&#10026;</button>
+      <p class="quiz-card_question">What property flips the axes in Flexbox</p>
+      <button type="button" class="quiz-card_button">Hide answer</button>
+      <p class="quiz-card_answer">flex-direction</p>
+      <section class="quiz-card_tags">
         <li>#css</li>
         <li>#flexbox</li>
         <li>#html</li>
-      </ul>
-    </div>
+      </section>
+    </section>
   </body>
-  <footer>
-    <ul>
-      <a href="/index.html"><li>&#9654;</li></a>
-      <a href="/bookmarks.html"><li>&#10026;</li></a>
-      <a href="/profile.html"><li>&#9733;</li></a>
-    </ul>
+  <footer class="navbar">
+    <a href="/index.html"><li>&#9654;</li></a>
+    <a href="/bookmarks.html"><li>&#10026;</li></a>
+    <a href="/profile.html"><li>&#9733;</li></a>
   </footer>
 </html>
