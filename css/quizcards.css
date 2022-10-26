@@ -19,7 +19,7 @@
     0 0 10px rgba(255, 255, 255, 0.5);
   font-weight: 200px;
   display: inline-block;
-  margin-bottom: 20px;
+  margin: 20px, 20px, 20px, 20px;
 }
 
 .quiz-card_button:hover {
@@ -47,17 +47,18 @@
   position: relative;
   left: 5px;
   font-size: 11px;
-  flex-direction: row;
   color: black;
   list-style-type: none;
 }
 
 .quiz--card_bookmark {
   position: relative;
-  left: 40%;
+  left: 70%;
   background-color: red;
 }
 
 li {
+  display: flex;
+  flex-direction: row;
   list-style-type: none;
 }
