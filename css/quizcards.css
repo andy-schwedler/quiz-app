@@ -51,10 +51,11 @@
   list-style-type: none;
 }
 
-.quiz--card_bookmark {
+.quiz--card__bookmark {
   position: relative;
   left: 70%;
   background-color: red;
+  size-adjust: 100px;
 }
 
 li {

@@ -8,14 +8,16 @@
     <title>Quiz App</title>
   </head>
   <header>
-    <h1>Quizzle</h1>
+    <h1>Quiz</h1>
   </header>
   <body>
     <section class="quiz-card">
-      <button class="quiz-card_bookmark"></button>
+      <button class="quiz--card__bookmark">
+        <img src="/assets/icons8-bookmark-48.png" />
+      </button>
       <p class="quiz-card_question">What property flips the axes in Flexbox?</p>
       <button type="button" class="quiz-card_button">Show answer</button>
-      <section class="quiz-card_tags">
+      <section class="quiz--card_tags">
         <li>#css</li>
         <li>#flexbox</li>
         <li>#html</li>
@@ -26,16 +28,22 @@
       <p class="quiz-card_question">What property flips the axes in Flexbox</p>
       <button type="button" class="quiz-card_button">Hide answer</button>
       <p class="quiz-card_answer">flex-direction</p>
-      <section class="quiz-card_tags">
+      <section class="quiz--card_tags">
         <li>#css</li>
         <li>#flexbox</li>
         <li>#html</li>
       </section>
     </section>
-    <footer class="navbar">
-      <a href="/index.html"><li>&#9654;</li></a>
-      <a href="/bookmarks.html"><li>&#10026;</li></a>
-      <a href="/profile.html"><li>&#9733;</li></a>
+    <footer class="navbar--container">
+      <a href="/index.html" class="navbar--container__items"
+        >&#9654;</a
+      >
+      <a href="/bookmarks.html" class="navbar--container__items"
+        >&#10026;</a
+      >
+      <a href="/profile.html" class="navbar--container__items"
+        >&#9733</a
+      >
     </footer>
   </body>
 </html>

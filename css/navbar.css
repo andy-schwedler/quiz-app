@@ -1,17 +1,15 @@
-.navbar {
+.navbar--container {
   background: #1a1a1a;
   position: fixed;
   bottom: 0;
-  width: 100%;
+  width: 1fr;
   display: flex;
-  flex-direction: row;
   margin-left: 0px;
-  padding-top: 1rem;
   justify-content: space-between;
   border: white 5px;
 }
 
-a {
+.navbar--container__items {
   position: relative;
   top: 15%;
   margin-top: 0px;
@@ -19,4 +17,5 @@ a {
   padding: 0;
   list-style-type: none;
   font-size: 3rem;
+  border: white;
 }
