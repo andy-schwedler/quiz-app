@@ -1,0 +1,7 @@
+body {
+  background-color: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  width: inherit;
+  margin: 0;
+}
