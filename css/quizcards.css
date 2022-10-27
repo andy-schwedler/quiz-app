@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: space-between;
   width: auto;
-  height: auto;
+  height: 50%;
   padding-left: 2%;
   padding-right: 2%;
   align-items: center;
@@ -41,8 +41,8 @@ p {
   margin-bottom: 50px;
 }
 
-.quiz--card__tags {
-  position: relative;
+.quiz--card__tag--container {
+  /* position: relative; */
   bottom: 0px;
   font-size: 15px;
   color: darkgray;
