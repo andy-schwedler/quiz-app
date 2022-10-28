@@ -1,64 +1,74 @@
-.quiz-card {
+.quiz--card__container {
+  background-color: lightgray;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  width: auto;
+  height: 50%;
+  padding-left: 2%;
+  padding-right: 2%;
   align-items: center;
-  background-color: lightgray;
   box-shadow: 1px 5px 29px 5px rgba(0, 0, 0, 0.5);
-  margin: 10% 30% 30% 30%;
-  border-radius: 15px;
+  margin: 10% 20% 50% 20%;
+  border-radius: 2rem;
 }
 
-.quiz-card_button {
+p {
+  font-size: large;
+}
+
+.quiz--card__button {
   color: whitesmoke;
   font-size: 15px;
   line-height: 20px;
-  padding: 8px;
+  padding: 7px;
   border-radius: 16px;
   background: #1a1a1a;
-  text-shadow: 0 0 15px rgba(255, 255, 255, 0.5),
-    0 0 10px rgba(255, 255, 255, 0.5);
+  box-shadow: #1a1a1a;
   font-weight: 200px;
-  display: inline-block;
-  margin: 20px, 20px, 20px, 20px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
-.quiz-card_button:hover {
-  background: #1c6ea4;
+.quiz--card__question {
+  text-align: center;
+  text-size-adjust: 10rem;
 }
 
-.quiz-card_question {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  padding-left: 5%;
-  font-size: 20px;
-  color: #1a1a1a;
-  text-shadow: 0 0 15px rgba(255, 255, 255, 0.5),
-    0 0 10px rgba(255, 255, 255, 0.5);
-}
-
-.quiz-card_answer {
+.quiz--card__answer {
   text-align: center;
   margin-top: 40px;
   margin-bottom: 50px;
 }
 
-.quiz--card_tags {
+.quiz--card__tag--section {
+  /* position: relative; */
+  bottom: 0px;
+  font-size: 15px;
+  color: darkgray;
+  width: 100%;
   display: flex;
-  position: relative;
-  left: 5px;
-  font-size: 11px;
-  color: black;
-  list-style-type: none;
+  justify-content: space-between;
 }
 
-.quiz--card_bookmark {
-  position: relative;
-  left: 70%;
-  background-color: red;
+.quiz--card__tags_items {
+  display: flex;
+  list-style-type: none;
+  padding-left: 5px;
 }
 
-li {
+.quiz--card__bookmark {
   display: flex;
-  flex-direction: row;
-  list-style-type: none;
+  /* position: relative;
+  padding: 0;
+  height: auto;
+  border: none;
+  background-color: transparent;
+  /* background-color: red; */
+  /* background-color: transparent;
+  width: 100%;
+  height: auto;
+  position: relative;
+  left: 80px;
+  bottom: 5px; */
 }

@@ -1,0 +1,15 @@
+.footer__menu {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  padding: 0;
+  width: 100vw;
+  height: 50px;
+  margin: 0;
+  align-items: center;
+  background-color: white;
+  border: 1px papayawhip;
+}
