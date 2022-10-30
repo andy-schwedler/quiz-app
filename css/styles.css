@@ -2,6 +2,7 @@
 @import "/css/quizcards.css";
 @import "/css/header.css";
 @import "/css/body.css";
+@import "/css/profile.css";
 
 * {
   box-sizing: border-box;
