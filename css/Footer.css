@@ -1,0 +1,9 @@
+.footer--container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer--container__item {
+  display: flex;
+}

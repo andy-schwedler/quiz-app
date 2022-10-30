@@ -1,0 +1,27 @@
+@import "/css/Footer.css";
+
+* {
+  box-sizing: border-box;
+  border: solid 1px black;
+  /* border: 1px solid lightblue; */
+}
+
+body {
+  width: 100vw;
+  margin: 0%;
+}
+
+h1 {
+  padding-left: 40%;
+  padding-right: 40%;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+img {
+  width: 100%;
+}
