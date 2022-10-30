@@ -1,0 +1,27 @@
+.question-card--flex-container {
+  background-color: papayawhip;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 40px;
+  margin: 10% 30% 20% 30%;
+}
+
+.question-card--flex-container__question {
+  text-size-adjust: 40px;
+}
+
+.question-card--flex-container__button {
+  margin: 10% 40% 10% 40%;
+}
+
+.question-card--flex-container__answer {
+  font-style: italic;
+  text-align: center;
+}
+
+.question-card--flex-container__tags {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
