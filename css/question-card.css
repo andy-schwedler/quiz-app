@@ -4,15 +4,23 @@
   flex-direction: column;
   text-align: center;
   border-radius: 40px;
-  margin: 10% 30% 20% 30%;
+  margin: 5% 30% 20% 30%;
+  -webkit-box-shadow: 7px 12px 40px 14px rgba(0, 0, 0, 0.6);
+  box-shadow: 7px 12px 40px 14px rgba(0, 0, 0, 0.6);
 }
 
 .question-card--flex-container__question {
-  text-size-adjust: 40px;
+  font-size: large;
 }
 
 .question-card--flex-container__button {
-  margin: 10% 40% 10% 40%;
+  margin: 10% 30% 10% 30%;
+  color: black;
+  font-size: 12px;
+  line-height: 12px;
+  padding: 7px;
+  border-radius: 8px;
+  font-family: Georgia, serif;
 }
 
 .question-card--flex-container__answer {
@@ -24,4 +32,8 @@
   display: flex;
   flex-direction: row;
   align-self: center;
+}
+
+.question-card--flex-container__tags__item {
+  margin-left: 5px;
 }
