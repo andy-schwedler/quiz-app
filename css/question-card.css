@@ -10,7 +10,8 @@
 }
 
 .question-card--flex-container__question {
-  font-size: large;
+  font-size: larger;
+  padding: 5px;
 }
 
 .question-card--flex-container__button {
@@ -32,4 +33,10 @@
   display: flex;
   flex-direction: row;
   align-self: center;
+}
+
+.question-card--flex-container__tags__item {
+  font-style: italic;
+  margin-left: 5px;
+  font-size: small;
 }
