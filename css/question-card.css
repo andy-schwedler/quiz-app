@@ -1,11 +1,11 @@
 .question-card--flex-container {
   background-color: white;
+  margin: 5% 10% 10% 15%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 40%;
+  width: 45%;
   border-radius: 40px;
-  /* margin: 5% 40% 20% 40%; */
   -webkit-box-shadow: 7px 12px 40px 14px rgba(0, 0, 0, 0.6);
   box-shadow: 7px 12px 40px 14px rgba(0, 0, 0, 0.6);
 }
@@ -13,10 +13,16 @@
 .question-card--container__bookmark {
   height: 30px;
   width: 30px;
+  align-self: flex-end;
+  position: relative;
+  bottom: 5px;
+  right: 5px;
 }
 
 .question-card--flex-container__question {
   font-size: larger;
+  font-style: oblique;
+  text-align: center;
   padding: 5px;
 }
 
@@ -32,7 +38,7 @@
 .question-card--flex-container__answer {
   font-style: italic;
   text-align: center;
-  padding-top: 5%;
+  font-size: small;
 }
 
 .question-card--flex-container__tags {
