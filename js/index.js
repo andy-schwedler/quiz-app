@@ -1,5 +1,14 @@
-const showAnswerButton = document.querySelector('[data-js="show-answer"]');
+const answer = document.querySelector('[data-js="answerField"]');
+const answerButton = document.querySelector('[data-js="show-answer"]');
 
-showAnswerButton.addEventListener("click", () => {
-  console.log("Hello");
+answerButton.addEventListener("click", () => {
+  answer.classList.toggle("hidden");
+  console.log();
 });
+
+/* const main = document.querySelector('[data-js="main"]');
+const button = document.querySelector('[data-js="button"]');
+
+button.addEventListener('click', () => {
+	main.classList.add('page--primary');
+*/

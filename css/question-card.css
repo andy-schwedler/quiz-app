@@ -14,12 +14,12 @@
   height: 30px;
   width: 30px;
   align-self: flex-end;
-  position: relative;
-  bottom: 5px;
+  padding-bottom: 5px;
   right: 5px;
 }
 
 .question-card--flex-container__question {
+  font-family: "Courier New", Courier, monospace;
   font-size: larger;
   font-style: oblique;
   text-align: center;
