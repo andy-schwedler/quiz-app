@@ -38,9 +38,13 @@
   width: 100px;
   border-radius: 8px;
 }
-
+/* answer on the quiz-card is hidden by default*/
 .question-card--flex-container__answer--hidden {
   visibility: hidden;
+}
+
+.question-card--flex-container__answer--hidden.show-answer {
+  visibility: visible;
   font-style: italic;
   text-align: center;
 }

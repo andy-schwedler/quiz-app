@@ -7,4 +7,14 @@ const bookmarkContainer = document.querySelector('[data-js="bookmark-button"]');
 bookmarkContainer.addEventListener("click", (event) => {
   bookmark.classList.toggle("question-card--container__bookmark--clicked");
 });
-// Add bookmark-background
+// add bookmark-background
+
+//show answer
+const showAnswerBtn = document.querySelector('[data-js="answer-button"]');
+const answer = document.querySelector('[data-js="answerField"]');
+
+showAnswerBtn.addEventListener("click", (event) => {
+  answer.classList.toggle("show-answer");
+});
+
+// show answer
