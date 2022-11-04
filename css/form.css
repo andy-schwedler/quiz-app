@@ -24,6 +24,7 @@ label {
   margin-top: 10px;
 }
 
-textarea {
-  height: 100px;
+textarea,
+input {
+  height: 50px;
 }
