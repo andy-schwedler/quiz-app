@@ -11,11 +11,10 @@
 }
 
 .question-card--container__bookmark {
+  display: flex;
   height: 30px;
   width: 30px;
-  align-self: flex-end;
-  padding-bottom: 5px;
-  right: 5px;
+  align-self: flex-start;
 }
 
 .question-card--flex-container__question {
@@ -28,10 +27,12 @@
 
 .question-card--flex-container__button {
   margin: 3% 40% 3% 40%;
+  display: block;
   color: black;
   font-size: 12px;
   line-height: 12px;
   padding: 7px;
+  width: 100px;
   border-radius: 8px;
 }
 
