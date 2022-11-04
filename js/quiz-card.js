@@ -9,7 +9,7 @@ bookmarkContainer.addEventListener("click", (event) => {
 });
 // add bookmark-background
 
-//show answer
+//show answer - below
 const showAnswerBtn = document.querySelector('[data-js="answer-button"]');
 const answer = document.querySelector('[data-js="answerField"]');
 
@@ -17,4 +17,9 @@ showAnswerBtn.addEventListener("click", (event) => {
   answer.classList.toggle("show-answer");
 });
 
-// show answer
+// show answer - up
+
+// showAnswerBtn. addEventListener("click", (e) => {
+//   e.target.textContent=
+//   e.target.textContent == "Hide answer" ? "Show answer"
+//   });

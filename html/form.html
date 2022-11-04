@@ -35,22 +35,23 @@
     <form data-js="form">
       <fieldset>
         <legend>Create a new quiz card</legend>
-        <label for="your-question">your question</label>
+        <label for="your-question">question?</label>
         <textarea
           name="question"
           placeholder="Where was the Undertaker born?"
         ></textarea>
-        <label for="your-answer">your answer</label>
+        <label for="your-answer">answer!</label>
         <textarea name="answer" placeholder="Houston, Texas"></textarea>
         <label for="tags">tags</label>
         <input type="text" placeholder="#wrestling" />
       </fieldset>
-      <button type="submit" data-js="submit-button" class="submit-button">
-        +
-      </button>
       <button type="reset" data-js="reset-button" class="submit-button">
         reset
       </button>
+      <button type="submit" data-js="submit-button" class="submit-button">
+        +
+      </button>
     </form>
+    <ul data-js="createdCards"></ul>
   </body>
 </html>
