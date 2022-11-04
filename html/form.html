@@ -32,13 +32,21 @@
         /></a>
       </li>
     </section>
-    <main>
-      <form>
+    <form>
+      <fieldset>
+        <legend>Create a new quiz card</legend>
         <label for="your-question">your question</label>
-        <textarea name="your-question"></textarea>
+        <textarea
+          name="your-question"
+          placeholder="Where was the Undertaker born?"
+        ></textarea>
         <label for="your-answer">your answer</label>
-        <textarea name="your-answer"></textarea>
-      </form>
-    </main>
+        <textarea name="your-answer" placeholder="Houston, Texas"></textarea>
+        <label for="tags">tags</label>
+        <input type="text" />
+      </fieldset>
+      <button type="submit" data-js="submit-button">add</button>
+      <button type="reset" data-js="reset-button">reset card</button>
+    </form>
   </body>
 </html>

@@ -1,6 +1,8 @@
 @import "/css/Footer.css";
 @import "/css/question-card.css";
-@import "/css/form.css" * {
+@import "/css/form.css";
+
+* {
   box-sizing: border-box;
   /* border: solid 1px black; */
 }
