@@ -36,6 +36,10 @@
   border-radius: 8px;
 }
 
+.question-card--flex-container__button.clicked {
+  background-color: red;
+}
+
 .question-card--flex-container__answer {
   font-style: italic;
   text-align: center;
