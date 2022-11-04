@@ -18,6 +18,7 @@
 }
 .question-card--container__bookmark--clicked {
   background-color: red;
+  border-radius: 50%;
 }
 
 .question-card--flex-container__question {
