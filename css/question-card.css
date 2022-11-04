@@ -39,10 +39,10 @@
   border-radius: 8px;
 }
 
-.question-card--flex-container__answer {
+.question-card--flex-container__answer--hidden {
+  visibility: hidden;
   font-style: italic;
   text-align: center;
-  font-size: small;
 }
 
 .question-card--flex-container__tags {
