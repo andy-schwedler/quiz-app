@@ -1,7 +1,8 @@
 console.clear();
 
 const bookmark = document.querySelector('[data-js="bookmark-button"]');
+const bookmarkContainer = document.querySelector('[data-js="bookmark-button"]');
 
-bookmark.addEventListener("click", (event) => {
-  console.log(event);
+bookmarkContainer.addEventListener("click", (event) => {
+  bookmark.classList.toggle("question-card--container__bookmark--clicked");
 });

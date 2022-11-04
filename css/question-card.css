@@ -16,6 +16,9 @@
   width: 30px;
   align-self: flex-end;
 }
+.question-card--container__bookmark--clicked {
+  background-color: red;
+}
 
 .question-card--flex-container__question {
   font-family: "Courier New", Courier, monospace;
@@ -34,10 +37,6 @@
   padding: 7px;
   width: 100px;
   border-radius: 8px;
-}
-
-.question-card--flex-container__button.clicked {
-  background-color: red;
 }
 
 .question-card--flex-container__answer {
