@@ -14,6 +14,6 @@ const answer = document.querySelector('[data-js="answerField"]');
 showAnswerBtn.addEventListener("click", (event) => {
   answer.classList.toggle("show-answer");
   showAnswerBtn.innerHTML = "hide answer";
-  showAnswerBtn.textContent =
-    showAnswerBtn.textContent == "hide answer" ? "show answer" : "hide answer";
+  // showAnswerBtn.textContent =
+  //   showAnswerBtn.textContent == "hide answer" ? "show answer" : "hide answer";
 });
