@@ -2,6 +2,7 @@ const form = document.querySelector('[data-js="form"]');
 const submitButton = document.querySelector('[data-js="submit-button"]');
 const createdCardList = document.querySelector('[data-js="createdCards"]');
 
+//
 form.addEventListener("submit", (event) => {
   event.preventDefault();
   const question = form.question.value;
