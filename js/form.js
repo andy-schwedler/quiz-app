@@ -13,18 +13,15 @@ form.addEventListener("submit", (event) => {
   form.append(section);
   section.classList.add("question-card--flex-container");
 
-  const question = document.createElement("p");
-  section.append(question);
-  question.classList.add("question-card--flex-container__question");
-  question.textContent = questionInput;
+  const createdQuestion = document.createElement("p");
+  section.append(createdQuestion);
+  createdQuestion.classList.add("question-card--flex-container__question");
+  createdQuestion.textContent = questionInput;
 
-  const toggleButton = document.createElement("button");
-  question.append(toggleButton);
-  toggleButton.classList.add("question-card--flex-container__button");
-
-  const answer = document.createElement("p");
-  toggleButton.append("answer");
-  answer.classList.add("question-card--flex-container__answer--hidden");
+  const createdAnswer = document.createElement("p");
+  package.append(createdAnswer);
+  createdAnswer.classList.add("show-answer");
+  createdAnswer.textContent = answerInput;
 
   //reset and focus on next card question
   event.target.elements.question.focus();
