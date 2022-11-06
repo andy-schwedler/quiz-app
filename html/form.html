@@ -10,7 +10,26 @@
   </head>
   <h1>Quiz</h1>
   <body>
-    <section class="footer--main-container">
+   
+    <form data-js="form">
+      <fieldset>
+        <legend>Create a new quiz card</legend>
+        <label for="your-question">question?</label>
+        <textarea
+          name="question"
+          placeholder="about the Undertaker?"
+        ></textarea>
+        <label for="your-answer">answer!</label>
+        <textarea name="answer" placeholder="Houston, Texas"></textarea>
+        <label for="tags">tags</label>
+        <input type="text" placeholder="#wrestling" />
+      </fieldset>
+      </button>
+      <button type="submit" data-js="submit-button" class="submit-button">
+        +
+      </button>
+    </form>
+    <footer class="footer--main-container">
       <li class="footer--container__item">
         <a href="/index.html" class="footer--container__item__icon"
           ><img src="/assets/icons8-home-page-50.png"
@@ -31,52 +50,6 @@
           <img src="/assets/icons8-customer-64.png"
         /></a>
       </li>
-    </section>
-    <form data-js="form">
-      <fieldset>
-        <legend>Create a new quiz card</legend>
-        <label for="your-question">question?</label>
-        <textarea
-          name="question"
-          placeholder="about the Undertaker?"
-        ></textarea>
-        <label for="your-answer">answer!</label>
-        <textarea name="answer" placeholder="Houston, Texas"></textarea>
-        <label for="tags">tags</label>
-        <input type="text" placeholder="#wrestling" />
-      </fieldset>
-      </button>
-      <button type="submit" data-js="submit-button" class="submit-button">
-        +
-      </button>
-    </form>
-    <section class="question-card--flex-container">
-      <img
-        src="/assets/icons8-bookmark-48.png"
-        class="question-card--container__bookmark"
-        data-js="bookmark-button"
-      />
-      <p class="question-card--flex-container__question">
-        What is the Undertakers real name?
-      </p>
-      <button
-        type="button"
-        class="question-card--flex-container__button"
-        data-js="answer-button"
-      >
-        show answer
-      </button>
-      <p
-        class="question-card--flex-container__answer--hidden"
-        data-js="answerField"
-      >
-        Mark W. Calaway
-      </p>
-      <ul class="question-card--flex-container__tags">
-        <li class="question-card--flex-container__tags__item">#css</li>
-        <li class="question-card--flex-container__tags__item">#flexbox</li>
-        <li class="question-card--flex-container__tags__item">#html</li>
-      </ul>
-  </section>
+    </footer>
   </body>
 </html>
