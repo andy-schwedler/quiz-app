@@ -19,7 +19,7 @@ form.addEventListener("submit", (event) => {
   createdQuestion.textContent = questionInput;
 
   const createdAnswer = document.createElement("p");
-  package.append(createdAnswer);
+  p.append(createdAnswer);
   createdAnswer.classList.add("show-answer");
   createdAnswer.textContent = answerInput;
 
@@ -27,26 +27,3 @@ form.addEventListener("submit", (event) => {
   event.target.elements.question.focus();
   event.target.reset();
 });
-
-// <p class="question-card--flex-container__question">
-//   What is the Undertakers real name?
-// </p>
-// <button
-//   type="button"
-//   class="question-card--flex-container__button"
-//   data-js="answer-button"
-// >
-//   show answer
-// </button>
-// <p
-//   class="question-card--flex-container__answer--hidden"
-//   data-js="answerField"
-// >
-//   Mark W. Calaway
-// </p>
-// <ul class="question-card--flex-container__tags">
-//   <li class="question-card--flex-container__tags__item">#css</li>
-//   <li class="question-card--flex-container__tags__item">#flexbox</li>
-//   <li class="question-card--flex-container__tags__item">#html</li>
-// </ul>
-// </section>
