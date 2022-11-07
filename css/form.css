@@ -1,10 +1,7 @@
 form {
   padding-top: 10%;
-  gap: 100px;
+  gap: 200px;
   width: 80%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 legend {
@@ -37,12 +34,11 @@ input {
   background-color: #ffffff;
   border-radius: 6px;
   border: 1px solid #dcdcdc;
-  cursor: pointer;
   color: #666666;
   font-family: Arial;
   font-size: 15px;
   font-weight: bold;
   padding: 6px 24px;
-  text-decoration: none;
   text-shadow: 0px 1px 0px #ffffff;
+  width: 50%;
 }

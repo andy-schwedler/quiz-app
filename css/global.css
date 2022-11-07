@@ -37,22 +37,3 @@ ul {
   list-style-type: none;
   padding: 0px;
 }
-
-/* PLAYER PROFILE PAGE */
-
-table {
-  margin-top: 50px;
-  display: flex;
-  flex-direction: column;
-}
-
-thead {
-  color: darkgreen;
-  font-size: 2rem;
-}
-
-td {
-  color: deepskyblue;
-  font-size: 1rem;
-  text-align: end;
-}
