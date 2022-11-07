@@ -1,6 +1,7 @@
 @import "/css/Footer.css";
 @import "/css/question-card.css";
 @import "/css/form.css";
+@import "/css/profile.css";
 
 * {
   box-sizing: border-box;
@@ -11,13 +12,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
   margin: 0%;
-  padding-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 150px;
   /* padding-top: 100px; */
 }
 
 h1 {
+  position: fixed;
+  top: 0px;
   padding-left: auto;
   padding-right: auto;
   text-align: center;

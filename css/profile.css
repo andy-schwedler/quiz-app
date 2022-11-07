@@ -1,0 +1,25 @@
+.playerinfo-pic {
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+  padding-top: 5%;
+  margin-bottom: 30px;
+}
+
+table {
+  margin-top: 50px;
+}
+tbody {
+  align-items: center;
+}
+
+th {
+  color: darkgray;
+  font-size: 3rem;
+}
+
+td {
+  color: deepskyblue;
+  font-size: 1rem;
+  text-align: end;
+}

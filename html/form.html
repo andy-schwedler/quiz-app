@@ -10,7 +10,26 @@
   </head>
   <h1>Quiz</h1>
   <body>
-    <section class="footer--main-container">
+   
+    <form data-js="form">
+      <fieldset>
+        <legend>Create a new quiz card</legend>
+        <label for="your-question">question</label>
+        <textarea
+          name="question"
+          placeholder="..." maxlength="150"
+        ></textarea>
+        <label for="your-answer">answer</label>
+        <textarea name="answer" maxlength="150" placeholder="..."></textarea>
+        <label for="tags">tags</label>
+        <input name="tags" type="text" placeholder="#wrestling" />
+      </fieldset>
+      </button>
+      <button type="submit" data-js="submit-button" class="submit-button">
+        add new Card
+      </button>
+    </form>
+    <footer class="footer--main-container">
       <li class="footer--container__item">
         <a href="/index.html" class="footer--container__item__icon"
           ><img src="/assets/icons8-home-page-50.png"
@@ -22,7 +41,7 @@
         /></a>
       </li>
       <li class="footer--container__item">
-        <a href="/html/create-card.html" class="footer--container__item__icon">
+        <a href="/html/form.html" class="footer--container__item__icon">
           <img src="/assets/add-new-button.png"
         /></a>
       </li>
@@ -31,27 +50,6 @@
           <img src="/assets/icons8-customer-64.png"
         /></a>
       </li>
-    </section>
-    <form data-js="form">
-      <fieldset>
-        <legend>Create a new quiz card</legend>
-        <label for="your-question">question?</label>
-        <textarea
-          name="question"
-          placeholder="Where was the Undertaker born?"
-        ></textarea>
-        <label for="your-answer">answer!</label>
-        <textarea name="answer" placeholder="Houston, Texas"></textarea>
-        <label for="tags">tags</label>
-        <input type="text" placeholder="#wrestling" />
-      </fieldset>
-      <button type="reset" data-js="reset-button" class="submit-button">
-        reset
-      </button>
-      <button type="submit" data-js="submit-button" class="submit-button">
-        +
-      </button>
-    </form>
-    <ul data-js="createdCards"></ul>
+    </footer>
   </body>
 </html>
