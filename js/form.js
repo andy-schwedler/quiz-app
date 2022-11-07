@@ -27,11 +27,13 @@ form.addEventListener("submit", (event) => {
 
   // const createdTagsContainer = document.createElement("ul");
   // section.append(createdTagsContainer);
+  // createdTagsContainer.classList.add("question-card--flex-container__tags");
 
   // const createdTagsInput = document.createElement("li");
   // ul.append(createdTagsInput);
+  // createdTagsInput.classList.add("question-card--flex-container__tags__item");
+  // createdTagsInput.textContent = createdTagsInput;
 
-  //reset and focus on next card question
   event.target.elements.question.focus();
   event.target.reset();
 });

@@ -1,7 +1,9 @@
 form {
+  display: flex;
+  flex-direction: column;
   padding-top: 10%;
-  gap: 200px;
-  width: 80%;
+  width: 60%;
+  gap: 10px;
 }
 
 legend {
@@ -28,7 +30,8 @@ input {
   height: 30px;
 }
 
-.submit-button {
+.submit-button,
+.submit-button:visited {
   box-shadow: inset 0px 1px 0px 0px #ffffff;
   background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
   background-color: #ffffff;
@@ -41,4 +44,10 @@ input {
   padding: 6px 24px;
   text-shadow: 0px 1px 0px #ffffff;
   width: 50%;
+  align-self: center;
+  margin-bottom: 30px;
+}
+
+.submit-button:hover {
+  color: orangered;
 }
