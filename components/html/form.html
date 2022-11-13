@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/components/css/global.css" />
-    <script src="/components/js/quiz-card.js" defer></script>
+    <script type="module" src="/components/js/form.js" defer></script>
     <title>Quiz App</title>
   </head>
   <h1>Quiz</h1>
@@ -21,8 +21,11 @@
         <input name="tags" type="text" placeholder="#wrestling" />
       </fieldset>
 
-      <button type="submit" data-js="submit-button" class="submit-button">
+      <button type="submit" data-js="submit-button" class="button">
         add new Card
+      </button>
+      <button type="reset" data-js="reset-button" class="button">
+        reset Card
       </button>
     </form>
     <footer class="footer--main-container">

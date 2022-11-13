@@ -3,27 +3,25 @@ console.clear();
 const form = document.querySelector('[data-js="form"]');
 const submitButton = document.querySelector('[data-js="submit-button"]');
 
-function createQuizCard(question, answerInput) {
+function createQuizCard() {
   const section = document.createElement("section");
   section.classList.add("question-card--flex-container");
   document.body.append(section);
 
   const createdQuestion = document.createElement("p");
   createdQuestion.classList.add("question-card--flex-container__question");
-  createdQuestion.textContent = question;
+  createdQuestion.textContent = form.question.value;
   section.append(createdQuestion);
 
   const createdAnswer = document.createElement("p");
   createdAnswer.classList.add("show-answer");
-  createdAnswer.textContent = answerInput;
+  createdAnswer.textContent = form.answer.value;
   section.append(createdAnswer);
 }
 
-form.addEventListener("submit", (event) => {
+form.addEventListener("submit", (createQuizCard) => {
   event.preventDefault();
-
-  createQuizCard(form.question.value, form.answer.value);
-
+  createQuizCard();
   event.target.elements.question.focus();
   event.target.reset();
 });
