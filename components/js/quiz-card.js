@@ -17,14 +17,12 @@ showAnswerBtn.addEventListener("click", (event) => {
     showAnswerBtn.textContent === "hide answer" ? "show answer" : "hide answer";
 });
 
-async function fetchCharacter() {
-  const response = await fetch("https://rickandmortyapi.com/api/character");
-  const data = await response.json();
-  const results = data.results;
-  const charactersNames = results.map((character) => {
-    return character.name;
-  });
+const response = await fetch("https://rickandmortyapi.com/api/character");
+const data = await response.json();
+const results = data.results;
+console.log(results);
+const charactersNames = results.map((character) => {
+  return character.name;
+});
 
-  console.log(charactersNames);
-}
-fetchCharacter();
+console.log(charactersNames);
