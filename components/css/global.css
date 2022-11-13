@@ -1,7 +1,7 @@
-@import "/css/Footer.css";
-@import "/css/question-card.css";
-@import "/css/form.css";
-@import "/css/profile.css";
+@import "/components/css/Footer.css";
+@import "/components/css/question-card.css";
+@import "/components/css/form.css";
+@import "/components/css/profile.css";
 
 * {
   box-sizing: border-box;

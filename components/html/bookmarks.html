@@ -4,31 +4,68 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/global.css" />
-    <script src="/js/index.js" defer></script>
+    <link rel="stylesheet" href="/components/css/global.css" />
+    <script src="/components/js/quiz-card.js" defer></script>
     <title>Quiz App</title>
   </head>
   <h1>Quiz</h1>
   <body>
+    <section class="question-card--flex-container">
+      <img
+        src="/components/assets/icons8-bookmark-48.png"
+        class="question-card--container__bookmark"
+        data-js="bookmark-button"
+      />
+      <p class="question-card--flex-container__question">
+        What is the Undertakers real name?
+      </p>
+      <button
+        type="button"
+        class="question-card--flex-container__button"
+        data-js="answer-button"
+      >
+        show answer
+      </button>
+      <p
+        class="question-card--flex-container__answer--hidden"
+        data-js="answerField"
+      >
+        Mark W. Calaway
+      </p>
+      <ul class="question-card--flex-container__tags">
+        <li class="question-card--flex-container__tags__item">#css</li>
+        <li class="question-card--flex-container__tags__item">#flexbox</li>
+        <li class="question-card--flex-container__tags__item">#html</li>
+      </ul>
+    </section>
     <footer class="footer--main-container">
       <li class="footer--container__item">
         <a href="/index.html" class="footer--container__item__icon"
-          ><img src="/assets/icons8-home-page-50.png"
+          ><img src="/components/assets/icons8-home-page-50.png"
         /></a>
       </li>
       <li class="footer--container__item">
-        <a href="/html/bookmarks.html" class="footer--container__item__icon">
-          <img src="/assets/icons8-bookmark-48.png"
+        <a
+          href="/components/html/bookmarks.html"
+          class="footer--container__item__icon"
+        >
+          <img src="/components/assets/icons8-bookmark-48.png"
         /></a>
       </li>
       <li class="footer--container__item">
-        <a href="/html/form.html" class="footer--container__item__icon">
-          <img src="/assets/add-new-button.png"
+        <a
+          href="/components/html/form.html"
+          class="footer--container__item__icon"
+        >
+          <img src="/components/assets/add-new-button.png"
         /></a>
       </li>
       <li class="footer--container__item">
-        <a href="/html/profile-page.html" class="footer--container__item__icon">
-          <img src="/assets/icons8-customer-64.png"
+        <a
+          href="/components/html/profile-page.html"
+          class="footer--container__item__icon"
+        >
+          <img src="/components/assets/icons8-customer-64.png"
         /></a>
       </li>
     </footer>
