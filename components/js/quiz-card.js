@@ -22,10 +22,9 @@ async function fetchCharacter() {
   const data = await response.json();
   const results = data.results;
   const charactersNames = results.map((character) => {
-    const names = character.names;
-    return names;
+    return character.name;
   });
+
+  console.log(charactersNames);
 }
 fetchCharacter();
-
-console.log(fetchCharacter);
